@@ -35,8 +35,8 @@ class PIMKernel(MemObject):
     cxx_header = "pim/pim_kernel.hh"
 
     id = Param.Int(0, "ID of the kernel")
-    latency = Param.Latency("1ns", "Calculation delay")
-
+    latency = Param.Latency("1ns", "Calculation delay")	
+	#inputs was edited to 8
     input = Param.Int(8, "inputs")
 
     # the output is set to 1 by default
